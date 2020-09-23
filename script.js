@@ -50,6 +50,8 @@ var today=new Day();
 function AddclasstoDay(id){
     if(id==1) Monday();
     if(id==3) Wednesday();
+    if(id==4) Thursday();
+    if(id==5) Friday();
 }
 AddclasstoDay(cur.getDay());
 today.sortclass();
