@@ -66,16 +66,20 @@ var n=today.arr.length;
 
 var firstclass;
 
+var wait=0;
+
 if(n==0){
     alert("No class today,happy dreams");
 } else {
     firstclass=today.arr[0];
     if(firstclass.starth+firstclass.startm/60>h){
         text=`<p id="timer"></p>`;
+        wait=1;
+    }
 }
 
 
-}
+
 
 async function copytoclipboard(text) {
   await navigator.clipboard.writeText(text);
@@ -122,9 +126,6 @@ function showClass(curclass){
 }
 
 
-if(text!="") {
-    showtimer();
-}
 
 
 for(var i=0;i<n;i++){
@@ -136,14 +137,14 @@ for(var i=0;i<n;i++){
     window.addEventListener('load',function(){
         var elm=document.getElementsByTagName("body")[0];
         elm.innerHTML+=text;
+        if(wait==1) showtimer();
     });
 })();
 
 
 
-function showtimer(){        
-    var distance = -cur.getHours()-cur.getMinutes()/60+
-                 firstclass.starth+firstclass.startm/60;
+function showtimer(){        1
+    var distance = -h+firstclass.starth+firstclass.startm/60;
     
     if(distance<0){
         return;
@@ -152,8 +153,11 @@ function showtimer(){
     var hours = Math.floor(distance);
     var minutes = Math.floor((distance-hours)*60);
  
-    document.getElementById("timer").innerHTML = "Next class in " +
-    hours + "h "+ minutes + "m ";
+    var t=document.getElementById("timer");
+    if(t){
+        t.innerHTML = "Next class in " +
+        hours + "h "+ minutes + "m ";
+    }
 }
 
 setTimeout(function(){

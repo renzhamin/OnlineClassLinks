@@ -10,7 +10,7 @@ class classinfo{
 //var anyname=new classinfo(name,link,id,pass) \\can skip the id and pass
 
 
-// This infos are incomplete
+// This infos may be incomplete
 var hum4242=new classinfo("Arabic II - AHM",
     "https://us04web.zoom.us/j/77060383286?pwd=cG5NSldpR3o2cTZKaTA3NE5HNUgwQT09",
     "770 6038 3286","4kQCHQ"); 
@@ -21,8 +21,8 @@ var ACM=new classinfo("ACM Programming");
 
 
 var phy4241=new classinfo("Physics II - FAK",
-    "https://bdren.zoom.us/j/69963926248?pwd=VlVjMHBlQlJSVUFob0N4aHlwRHRUQT09",
-    "699 6392 6248","897645");
+    "https://bdren.zoom.us/j/67620348577?pwd=eE1ZMDdLMzM5YTZheDNOVldmdjVTUT09",
+    "676 2034 8577","754987");
 
 var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.pass); 
     phy4242.name="Physics II Lab - FAK (1A/1B)";
