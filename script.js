@@ -141,26 +141,19 @@ for(var i=0;i<n;i++){
 
 
 
-function showtimer(){
-
-    var x = setInterval(function() {
-        
+function showtimer(){        
     var distance = -cur.getHours()-cur.getMinutes()/60+
                  firstclass.starth+firstclass.startm/60;
     
     if(distance<0){
-        clearInterval(x);
+        return;
     }
 
     var hours = Math.floor(distance);
     var minutes = Math.floor((distance-hours)*60);
  
-
     document.getElementById("timer").innerHTML = "Next class in " +
     hours + "h "+ minutes + "m ";
-    
-    }, 1000);
-
 }
 
 setTimeout(function(){
