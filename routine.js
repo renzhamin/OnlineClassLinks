@@ -41,7 +41,7 @@ var cse4202_1B=new classinfo("",cse4202_1A.link);
     cse4202_1B.name="Programming Lab(1B) - FS,TIA";
 
 var chem_thu=new classinfo("Chem 4241 - NI",
-    "https://meet.google.com/vhx-urhg-xsr");
+    "https://meet.google.com/");
 
 var chem_fri=new classinfo(chem_thu.name);
     chem_fri.link="https://meet.google.com/yoj-uava-evx";
