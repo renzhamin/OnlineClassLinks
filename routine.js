@@ -21,8 +21,8 @@ var ACM=new classinfo("ACM Programming");
 
 
 var phy4241=new classinfo("Physics II - FAK",
-    "https://bdren.zoom.us/j/67620348577?pwd=eE1ZMDdLMzM5YTZheDNOVldmdjVTUT09",
-    "676 2034 8577","754987");
+    "https://bdren.zoom.us/j/68523563449?pwd=TFZ1VGpJNWswWXZERzZLQ0l5ZE5vdz09",
+    "685 2356 3449","809878");
 
 var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.pass); 
     phy4242.name="Physics II Lab - FAK (1A/1B)";
