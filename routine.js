@@ -11,28 +11,32 @@ class classinfo{
 
 
 // This infos are incomplete
-var hum4242=new classinfo("HUM 4242 - AHM"); 
-var cse4205=new classinfo("CSE 4205 - MHA");
+var hum4242=new classinfo("Arabic II - AHM",
+    "https://us04web.zoom.us/j/77060383286?pwd=cG5NSldpR3o2cTZKaTA3NE5HNUgwQT09",
+    "770 6038 3286","4kQCHQ"); 
+var cse4205=new classinfo("Digital Logic Design - MHA");
 var ACM=new classinfo("ACM Programming");
 //
 
 
-var phy4241=new classinfo("Phy 4241 - FAK",
+var phy4241=new classinfo("Physics II - FAK",
     "https://bdren.zoom.us/j/69963926248?pwd=VlVjMHBlQlJSVUFob0N4aHlwRHRUQT09",
     "699 6392 6248","897645");
 
-var phy4242=phy4241; phy4242.name="Phy 4242 - FAK";
+var phy4242=phy4241; 
+    phy4242.name="Physics II Lab - FAK (1A/1B)";
 
-var math=new classinfo("Math 4241 - MA","https://bdren.zoom.us/j/4160336678",)
+var math=new classinfo("Calculas - MA","https://bdren.zoom.us/j/4160336678",)
 
-var cse4203=new classinfo("CSE 4203 - MRK",
+var cse4203=new classinfo("Discrete Math - MRK",
     "https://meet.google.com/lookup/fo7t6dy74k");
 
 
-var cse4202_1A=new classinfo("CSE 4202(1A) - FS,TIA",
+var cse4202_1A=new classinfo("Programming Lab(1A) - FS,TIA",
     "https://bdren.zoom.us/j/67444734435");
 
-var cse4202_1B=cse4202_1A; cse4202_1B.name="CSE 4202(1B) - FS,TIA";
+var cse4202_1B=cse4202_1A; 
+    cse4202_1B.name="Programming Lab(1B) - FS,TIA";
 
 var chem_thu=new classinfo("Chem 4241 - NI",
     "https://meet.google.com/lookup/fo7t6dy74k");
@@ -40,7 +44,7 @@ var chem_thu=new classinfo("Chem 4241 - NI",
 var chem_fri=chem_thu;
     chem_fri.link="https://meet.google.com/yoj-uava-evx";
 
-var hum4241=new classinfo("HUM 4241 - MSH",
+var hum4241=new classinfo("Islamic History - MSH",
     "https://bdren.zoom.us/j/4260581703?pwd=MGdscVhtNE9ycHlCSWY5MWZvbXZIdz09",
     "426 058 1703","1hqye6");
 
@@ -87,4 +91,13 @@ function Friday(){
     today.addclass(phy4241,9,0,10,15);
     today.addclass(chem_fri,11,0,12,15);
     today.addclass(cse4202_1B,15,10,18,5);
+}
+
+
+
+function Saterday(){
+    //    
+}
+function Sunday(){
+    //
 }

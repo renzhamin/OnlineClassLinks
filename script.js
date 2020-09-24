@@ -48,20 +48,33 @@ var today=new Day();
 
 
 function AddclasstoDay(id){
+    if(id==0) Sunday();
     if(id==1) Monday();
+    if(id==2) Tuesday();
     if(id==3) Wednesday();
     if(id==4) Thursday();
     if(id==5) Friday();
+    if(id==6) Saterday();
 }
+
 AddclasstoDay(cur.getDay());
 today.sortclass();
 
 var text="";
 
-var firstclass=today.arr[0];
+var n=today.arr.length;
 
-if(firstclass.starth+firstclass.startm/60>h){
-    text=`<p id="timer"></p>`;
+var firstclass;
+
+if(n==0){
+    alert("No class today,happy dreams");
+} else {
+    firstclass=today.arr[0];
+    if(firstclass.starth+firstclass.startm/60>h){
+        text=`<p id="timer"></p>`;
+}
+
+
 }
 
 async function copytoclipboard(text) {
@@ -113,7 +126,7 @@ if(text!="") {
     showtimer();
 }
 
-var n=today.arr.length;
+
 for(var i=0;i<n;i++){
     showClass(today.arr[i]);
 }
