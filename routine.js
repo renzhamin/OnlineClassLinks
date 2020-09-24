@@ -24,10 +24,11 @@ var phy4241=new classinfo("Physics II - FAK",
     "https://bdren.zoom.us/j/69963926248?pwd=VlVjMHBlQlJSVUFob0N4aHlwRHRUQT09",
     "699 6392 6248","897645");
 
-var phy4242=phy4241; 
+var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.id); 
     phy4242.name="Physics II Lab - FAK (1A/1B)";
 
-var math=new classinfo("Calculas - MA","https://bdren.zoom.us/j/4160336678",)
+var math=new classinfo("Calculas - MA",
+    "https://bdren.zoom.us/j/4160336678");
 
 var cse4203=new classinfo("Discrete Math - MRK",
     "https://meet.google.com/lookup/fo7t6dy74k");
@@ -36,13 +37,13 @@ var cse4203=new classinfo("Discrete Math - MRK",
 var cse4202_1A=new classinfo("Programming Lab(1A) - FS,TIA",
     "https://bdren.zoom.us/j/67444734435");
 
-var cse4202_1B=cse4202_1A; 
+var cse4202_1B=new classinfo("",cse4202_1A.link); 
     cse4202_1B.name="Programming Lab(1B) - FS,TIA";
 
 var chem_thu=new classinfo("Chem 4241 - NI",
-    "https://meet.google.com/lookup/fo7t6dy74k");
+    "https://meet.google.com/vhx-urhg-xsr");
 
-var chem_fri=chem_thu;
+var chem_fri=new classinfo(chem_thu.name);
     chem_fri.link="https://meet.google.com/yoj-uava-evx";
 
 var hum4241=new classinfo("Islamic History - MSH",
