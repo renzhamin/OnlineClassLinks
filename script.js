@@ -162,3 +162,7 @@ function showtimer(){
     }, 1000);
 
 }
+
+setTimeout(function(){
+   window.location.reload(1);
+}, 60000);
