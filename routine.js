@@ -24,7 +24,7 @@ var phy4241=new classinfo("Physics II - FAK",
     "https://bdren.zoom.us/j/69963926248?pwd=VlVjMHBlQlJSVUFob0N4aHlwRHRUQT09",
     "699 6392 6248","897645");
 
-var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.id); 
+var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.pass); 
     phy4242.name="Physics II Lab - FAK (1A/1B)";
 
 var math=new classinfo("Calculas - MA",
