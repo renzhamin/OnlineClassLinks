@@ -92,7 +92,8 @@ function Thursday(){
 function Friday(){
     today.addclass(phy4241,9,0,10,15);
     today.addclass(chem_fri,11,0,12,15);
-    today.addclass(cse4202_1B,15,10,18,5);
+    today.addclass(cse4205);
+    //today.addclass(cse4202_1B,15,10,18,5);
 }
 
 
