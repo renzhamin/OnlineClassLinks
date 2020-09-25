@@ -1,23 +1,28 @@
-class classinfo{
-    constructor(name,link="",id="0",pass="0"){
-        this.name=name;
-        this.link=link;
-        this.id=id;
-        this.pass=pass;
-    }
-}
+var noticestyle=`
+    font-style:italic;
+    color:teal;
+    font-size:1.8rem;
+    padding-bottom:1em;
+`;
+
+today.notice=`
+<div style="${noticestyle}">
+    Notice : Hello beautiful people <br>
+    Have a nice day
+</div>
+`;
 
 //var anyname=new classinfo(name,link,id,pass) \\can skip the id and pass
 
 
-// This infos may be incomplete
 var hum4242=new classinfo("Arabic II - AHM",
     "https://us04web.zoom.us/j/77060383286?pwd=cG5NSldpR3o2cTZKaTA3NE5HNUgwQT09",
     "770 6038 3286","4kQCHQ"); 
+
 var cse4205=new classinfo("Digital Logic Design - MHA",
     "https://bdren.zoom.us/j/62894421429");
+
 var ACM=new classinfo("ACM Programming");
-//
 
 
 var phy4241=new classinfo("Physics II - FAK",
