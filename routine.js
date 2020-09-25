@@ -15,7 +15,7 @@ var hum4242=new classinfo("Arabic II - AHM",
     "https://us04web.zoom.us/j/77060383286?pwd=cG5NSldpR3o2cTZKaTA3NE5HNUgwQT09",
     "770 6038 3286","4kQCHQ"); 
 var cse4205=new classinfo("Digital Logic Design - MHA",
-    "https://bdren.zoom.us/j/63324707636");
+    "https://bdren.zoom.us/j/62894421429");
 var ACM=new classinfo("ACM Programming");
 //
 
