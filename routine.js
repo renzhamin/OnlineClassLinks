@@ -20,7 +20,7 @@ var hum4242=new classinfo("Arabic II - AHM",
     "770 6038 3286","4kQCHQ"); 
 
 var cse4205=new classinfo("Digital Logic Design - MHA",
-    "https://bdren.zoom.us/j/65332605801");
+    "https://bdren.zoom.us/j/62354245243");
 
 var ACM=new classinfo("ACM Programming");
 
@@ -74,7 +74,7 @@ function Monday(){
 }
 
 function Tuesday(){
-    today.addclass(cse4205,9,0,9,50);
+    today.addclass(cse4205,11,0,11,50);
     today.addclass(hum4241,12,0,12,50);
     today.addclass(cse4203,14,10,15,0);
     today.addclass(cse4202_1A,15,10,18,5);
