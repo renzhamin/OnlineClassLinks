@@ -40,7 +40,7 @@ var cse4203=new classinfo("Discrete Math - MRK",
 
 
 var cse4202_1A=new classinfo("Programming Lab(1A) - FS,TIA",
-    "https://bdren.zoom.us/j/67444734435");
+    "");
 
 var cse4202_1B=new classinfo("",cse4202_1A.link); 
     cse4202_1B.name="Programming Lab(1B) - FS,TIA";
@@ -77,7 +77,7 @@ function Tuesday(){
     today.addclass(cse4205,11,0,11,50);
     today.addclass(hum4241,12,0,12,50);
     today.addclass(cse4203,14,10,15,0);
-    today.addclass(cse4202_1A,15,10,18,5);
+    today.addclass(cse4202_1A,15,10,18,5).notice("Check google classroom for links");
 }
 
 function Wednesday(){
