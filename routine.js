@@ -69,7 +69,7 @@ To make a notice the code will be like this
 function Monday(){
     today.addclass(math,9,0,10,50);
     today.addclass(cse4203,11,0,11,50);
-    today.addclass(cse4205,14,10,15,0);
+    today.addclass(cse4205,12,0,12,50);
     today.addclass(hum4242,16,15,18,5);
 }
 
