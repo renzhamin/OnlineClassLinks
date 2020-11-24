@@ -73,10 +73,15 @@ function Monday(){
     today.addclass(hum4242,16,15,18,5);
 }
 
+var lxd=`
+    <p>Classroom :</p>
+    <a href="https://classroom.google.com/c/MTc4NDAxMDc3NTQ1">
+`
+
 function Tuesday(){
     today.addclass(cse4205,11,0,11,50);
     today.addclass(hum4241,12,0,12,50);
-    today.addclass(cse4203,14,10,15,0);
+    today.addclass(cse4203,14,10,15,0).notice(lxd);
     // today.addclass(cse4202_1A,15,10,18,5).notice("Check google classroom for links");
 }
 
