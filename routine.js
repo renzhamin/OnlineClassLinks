@@ -5,12 +5,12 @@ var noticestyle=`
     padding-bottom:1em;
 `;
 
-// today.notice=`
-// <div style="${noticestyle}">
-//     Notice : Hello beautiful people <br>
-//     Have a nice day
-// </div>
-// `;
+today.notice=`
+<div style="${noticestyle}">
+    Notice : Hello beautiful people <br>
+    Have a nice day
+</div>
+`;
 
 //var anyname=new classinfo(name,link,id,pass) \\can skip the id and pass
 
@@ -99,6 +99,7 @@ function Friday(){
     today.addclass(chem_fri,11,0,12,15);
     // today.addclass(cse4205,15,30,16,20);
     //today.addclass(cse4202_1B,15,10,18,5);
+    today.addclass().notice("Fuck you");
 }
 
 
