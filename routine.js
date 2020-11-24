@@ -74,8 +74,9 @@ function Monday(){
 }
 
 var lxd=`
-    <p>Classroom :</p>
     <a href="https://classroom.google.com/c/MTc4NDAxMDc3NTQ1">
+    Classroom
+    </a>
 `
 
 function Tuesday(){
