@@ -74,7 +74,7 @@ function Monday(){
 }
 
 var lxd=`
-    <a href="https://classroom.google.com/c/MTc4NDAxMDc3NTQ1">
+    <a target=0 href="https://classroom.google.com/c/MTc4NDAxMDc3NTQ1">
     Classroom
     </a>
 `
