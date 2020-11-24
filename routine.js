@@ -75,7 +75,7 @@ function Monday(){
 
 var lxd=`
     <a target=0 href="https://classroom.google.com/c/MTc4NDAxMDc3NTQ1">
-    Classroom
+    ${cse4203.name} Classroom
     </a>
 `
 
