@@ -77,8 +77,6 @@ function Tuesday(){
     today.addclass(cse4205,11,0,11,50);
     today.addclass(hum4241,12,0,12,50);
     today.addclass(cse4203,14,10,15,0);
-    today.addclass().notice("Fuck you");
-
     // today.addclass(cse4202_1A,15,10,18,5).notice("Check google classroom for links");
 }
 
