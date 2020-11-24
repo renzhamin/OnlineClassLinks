@@ -5,12 +5,12 @@ var noticestyle=`
     padding-bottom:1em;
 `;
 
-today.notice=`
-<div style="${noticestyle}">
-    Notice : Hello beautiful people <br>
-    Have a nice day
-</div>
-`;
+// today.notice=`
+// <div style="${noticestyle}">
+//     Notice : Hello beautiful people <br>
+//     Have a nice day
+// </div>
+// `;
 
 //var anyname=new classinfo(name,link,id,pass) \\can skip the id and pass
 
