@@ -68,7 +68,10 @@ To make a notice the code will be like this
 
 function Monday(){
     today.addclass(math,9,0,10,50);
+
     today.addclass(cse4203,11,0,11,50);
+    cse4205.link="https://bdren.zoom.us/j/65333781205";
+
     today.addclass(cse4205,12,0,12,50);
     today.addclass(hum4242,16,15,18,5);
 }
@@ -94,7 +97,10 @@ function Wednesday(){
 
 function Thursday(){
     today.addclass(hum4241,9,0,9,50);
+
+    cse4205.link="https://bdren.zoom.us/j/69292892823";
     today.addclass(cse4205,10,0,10,50);
+
     today.addclass(chem_thu,11,35,12,50);
     today.addclass(cse4203,14,10,15,0);
     today.addclass(phy4242,15,10,18,5);
