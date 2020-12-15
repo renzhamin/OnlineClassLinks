@@ -1,6 +1,6 @@
 var noticestyle=`
     font-style:italic;
-    color:teal;
+    color: #84fffa;
     font-size:1.8rem;
     padding-bottom:1em;
 `;
@@ -82,14 +82,14 @@ var lxd=`
 function Tuesday(){
     today.addclass(cse4205,11,0,11,50);
     today.addclass(hum4241,12,0,12,50);
-    today.addclass(cse4203,14,10,15,0).notice(lxd);
+    today.addclass(cse4203,14,10,15,0);
     // today.addclass(cse4202_1A,15,10,18,5).notice("Check google classroom for links");
 }
 
 function Wednesday(){
     today.addclass(phy4241,9,0,10,15);
     today.addclass(math,11,0,12,50);
-    today.addclass(ACM,15,10,18,5);
+    // today.addclass(ACM,15,10,18,5);
 }
 
 function Thursday(){

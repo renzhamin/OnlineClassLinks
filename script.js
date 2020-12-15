@@ -37,7 +37,7 @@ async function copytoclipboard(text) {
 }
 
 function showClass(curclass){
-    var curTextcolor="red";
+    var curTextcolor="#f22320";
     var sm=curclass.startm;
     var em=curclass.minutes;
     var meeting="";

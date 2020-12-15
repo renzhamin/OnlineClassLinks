@@ -1,3 +1,9 @@
+
+:root {
+    background-color: #191a1b;
+}
+
+
 .classProp{
     font-size: 2rem;
 }
@@ -7,6 +13,16 @@ p{
 }
 
 .time{
-    color :blue;
+    color :rgb(62, 127, 241);
+}
+
+a{
+    color:#4093f2
+}
+
+html, body, input, textarea, select, button {
+    border-color : #766d5f;
+    background-color : #191a1b;
+    color : white;
 }
 
