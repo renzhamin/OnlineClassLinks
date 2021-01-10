@@ -45,7 +45,7 @@ function showClass(curclass){
     var ss="am",es="pm";
     var sh=curclass.starth,eh=Math.floor(curclass.hour);
     if(sh>=12) ss="pm";
-    if(eh<=12) es="am";
+    if(eh<12) es="am";
     if(sh!=12) sh%=12;
     if(eh!=12) eh%=12;
     var id=curclass.inf.id;

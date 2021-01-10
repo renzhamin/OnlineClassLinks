@@ -127,6 +127,6 @@ function Sunday(){
 
 
 function exam(){
-    today.addclass(room1,9,0,13,0);
-    today.addclass(room2,9,0,13,0);
+    today.addclass(room1,9,55,12,30);
+    today.addclass(room2,9,55,12,30);
 }
