@@ -5,12 +5,15 @@ var noticestyle=`
     padding-bottom:1em;
 `;
 
-today.notice=`
-<div style="${noticestyle}">
-    Notice : Hello beautiful people <br>
-    Have a nice day
-</div>
-`;
+var room1=new classinfo("1-24,59","https://bdren.zoom.us/j/2267000409");
+var room2=new classinfo("25-48","https://bdren.zoom.us/j/8130856916");
+
+//today.notice=`
+//<div style="${noticestyle}">
+//    Notice : Hello beautiful people <br>
+//    Have a nice day
+//</div>
+//`;
 
 //var anyname=new classinfo(name,link,id,pass) \\can skip the id and pass
 
@@ -120,4 +123,10 @@ function Saterday(){
 }
 function Sunday(){
     //
+}
+
+
+function exam(){
+    today.addclass(room1,9,0,13,0);
+    today.addclass(room2,9,0,13,0);
 }

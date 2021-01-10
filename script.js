@@ -8,8 +8,8 @@ function AddclasstoDay(id){
     if(id==6) Saterday();
 }
 
-AddclasstoDay(cur.getDay());
-today.sortclass();
+// AddclasstoDay(cur.getDay()); today.sortclass();
+exam();
 
 var text=today.notice;
 
