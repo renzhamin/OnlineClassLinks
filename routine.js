@@ -36,10 +36,10 @@ var phy4242=new classinfo("",phy4241.link,phy4241.id,phy4241.pass);
     phy4242.name="Physics II Lab - FAK (1A/1B)";
 
 var math=new classinfo("Calculas - MA",
-    "https://bdren.zoom.us/j/4160336678");
+    "https://meet.google.com/lookup/bixoglbjr5");
 
 var cse4203=new classinfo("Discrete Math - MRK",
-    "https://meet.google.com/lookup/fo7t6dy74k");
+    "meet.google.com/gbt-pdhe-ftb");
 
 
 var cse4202_1A=new classinfo("Programming Lab(1A) - FS,TIA",
@@ -52,7 +52,7 @@ var chem_thu=new classinfo("Chem 4241 - NI",
     "https://meet.google.com/vhx-urhg-xsr");
 
 var chem_fri=new classinfo(chem_thu.name);
-    chem_fri.link="https://meet.google.com/yoj-uava-evx";
+    chem_fri.link="https://meet.google.com/pqu-uzwr-yxp";
 
 var hum4241=new classinfo("Islamic History - MSH",
     "https://bdren.zoom.us/j/4260581703?pwd=MGdscVhtNE9ycHlCSWY5MWZvbXZIdz09",
@@ -127,6 +127,7 @@ function Sunday(){
 
 
 function exam(){
-    today.addclass(room1,9,55,12,30);
-    today.addclass(room2,9,55,12,30);
+    today.addclass(chem_fri,15,0,18,0);
+    today.addclass(math,12,0,16,0);
+    today.addclass(cse4203,15,0,20,0);
 }
