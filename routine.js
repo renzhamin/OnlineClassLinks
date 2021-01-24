@@ -130,4 +130,5 @@ function exam(){
     today.addclass(chem_fri,15,0,18,0);
     today.addclass(math,12,0,16,0);
     today.addclass(cse4203,15,0,20,0);
+    today.addclass(hum4241,14,0,17,0);
 }
