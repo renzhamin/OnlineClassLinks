@@ -55,8 +55,7 @@ var chem_fri=new classinfo(chem_thu.name);
     chem_fri.link="https://meet.google.com/pqu-uzwr-yxp";
 
 var hum4241=new classinfo("Islamic History - MSH",
-    "https://bdren.zoom.us/j/4260581703?pwd=MGdscVhtNE9ycHlCSWY5MWZvbXZIdz09",
-    "426 058 1703","1hqye6");
+    "https://bdren.zoom.us/j/4260581703?pwd=MGdscVhtNE9ycHlCSWY5MWZvbXZIdz09");
 
 
 /* addclass(classinfo,starting hour,starting minute,
